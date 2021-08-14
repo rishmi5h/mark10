@@ -8,7 +8,7 @@
     <title>Cash Register</title>
   </head>
   <body>
-    <div class="main-container">
+    <div>
       <h1>Cash Register Manager</h1>
       <p>
         Enter the bill amount and cash given by the customer and know the
@@ -18,8 +18,26 @@
       <input type="number" name="bill-amount" id="bill-amount" />
       <label for="cash-given">Cash Given:</label>
       <input type="number" name="cash-given" id="cash-given" />
-      <script src="scripts.js"></script>
       <button>Check</button>
+      <table>
+        <caption>
+          Return Change
+        </caption>
+        <tr>
+          <th>No of Notes</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+        </tr>
+      </table>
+      <script src="scripts.js"></script>
     </div>
   </body>
 </html>
