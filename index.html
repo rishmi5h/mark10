@@ -14,12 +14,25 @@
         Enter the bill amount and cash given by the customer and know the
         minimum number of notes to return
       </p>
-      <label for="bill-amount">Bill Amount:</label>
-      <input type="number" name="bill-amount" id="bill-amount" />
-      <button id="next">Next</button>
-      <label for="cash-given" class="hide">Cash Given:</label>
-      <input type="number" name="cash-given" id="cash-given" class="hide" />
-      <button id="check" class="hide">Check</button>
+      <label for="bill-amount"><b>Bill Amount:</b></label>
+      <div class="center">
+        <input
+          type="tel"
+          name="bill-amount"
+          id="bill-amount"
+          placeholder="In Numbers"
+        />
+      </div>
+      <div class="center">
+        <button id="next">Next</button>
+      </div>
+      <label for="cash-given" class="hide"><b>Cash Given:</b></label>
+      <div class="center">
+        <input type="tel" name="cash-given" id="cash-given" class="hide" />
+      </div>
+      <div class="center">
+        <button id="check" class="hide">Check</button>
+      </div>
       <p id="error-message"></p>
       <table class="change-table hide">
         <caption>
